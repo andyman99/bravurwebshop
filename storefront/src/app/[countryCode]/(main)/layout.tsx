@@ -27,7 +27,6 @@ export default async function PageLayout(props: { children: React.ReactNode }) {
     <>
       <NavigationHeader />
 
-
       {customer && cart && (
         <CartMismatchBanner customer={customer} cart={cart} />
       )}
