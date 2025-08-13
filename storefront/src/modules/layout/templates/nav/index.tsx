@@ -23,12 +23,12 @@ export async function NavigationHeader() {
         <div className="small:mx-auto flex justify-between items-center min-w-full">
           <div className="flex items-center small:space-x-4">
             <LocalizedClientLink
-              className="hover:text-ui-fg-base flex items-center w-fit"
               href="/"
+              className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base font-proxima font-semibold"
             >
-              <h1 className="small:text-base text-sm font-medium flex items-center">
+              <h1 className="small:text-base text-sm font-medium flex items-center font-proxima-nova">
                 <LogoIcon className="inline mr-2" />
-                BravurSystem
+                Bravur System
               </h1>
             </LocalizedClientLink>
 

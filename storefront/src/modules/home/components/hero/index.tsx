@@ -16,31 +16,13 @@ const Hero = () => {
         priority
       />
       <div className="absolute inset-0 z-1 flex flex-col justify-center items-center text-center small:p-32 gap-6">
-        <span>
-          <p className="text-neutral-600 text-xs uppercase">
-            Be light on your feet
-          </p>
-
-          <Heading
-            level="h1"
-            className="text-6xl leading-10 text-ui-fg-base font-normal mt-10 mb-5"
-          >
-            Portable Bestsellers
-          </Heading>
-
-          <p className="leading-10 text-ui-fg-subtle font-normal text-lg">
-            See our widest selection of electronics
-          </p>
-        </span>
-        <a
-          href="https://github.com/medusajs/b2b-starter-medusa"
-          target="_blank"
-        >
-          <Button variant="secondary" className="rounded-2xl">
-            <Github />
-            Github Repository
-          </Button>
-        </a>
+ 
+        <Heading level="h1" className="text-6xl leading-10 text-ui-fg-base mt-10 mb-5 font-proxima font-semibold text-white">
+          Our Bestsellers
+        </Heading>
+        <p className="text-base-regular small:text-lg-regular text-neutral-200 max-w-[32rem]">
+          Discover products that enable AV-production, security solutions, information and communication and more.
+        </p>
       </div>
     </div>
   )

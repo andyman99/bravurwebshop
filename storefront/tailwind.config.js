@@ -24,7 +24,18 @@ module.exports = {
         "2xlarge": "1920px",
       },
       fontFamily: {
-        sans: ["var(--font-geist-sans)"],
+        sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
+        proxima: ["var(--font-proxima-nova)", "system-ui", "sans-serif"],
+      },
+      fontWeight: {
+        thin: "100",
+        light: "300",
+        normal: "400",
+        medium: "500",
+        semibold: "600",
+        bold: "700",
+        extrabold: "800",
+        black: "900",
       },
       keyframes: {
         "accordion-open": {

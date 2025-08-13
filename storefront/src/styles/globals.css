@@ -2,6 +2,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  /* Apply Proxima Nova to all heading elements */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-proxima-nova), sans-serif;
+  }
+  
+  /* Apply Proxima Nova to elements with heading classes */
+  .font-proxima-nova {
+    font-family: var(--font-proxima-nova), sans-serif;
+  }
+}
+
 @layer utilities {
   /* Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
@@ -87,26 +99,26 @@
   }
 
   .text-xl-regular {
-    @apply text-2xl leading-[36px] font-normal;
+    @apply text-2xl leading-[36px] font-normal font-proxima-nova;
   }
 
   .text-xl-semi {
-    @apply text-2xl leading-[36px] font-semibold;
+    @apply text-2xl leading-[36px] font-semibold font-proxima-nova;
   }
 
   .text-2xl-regular {
-    @apply text-[30px] leading-[48px] font-normal;
+    @apply text-[30px] leading-[48px] font-normal font-proxima-nova;
   }
 
   .text-2xl-semi {
-    @apply text-[30px] leading-[48px] font-semibold;
+    @apply text-[30px] leading-[48px] font-semibold font-proxima-nova;
   }
 
   .text-3xl-regular {
-    @apply text-[32px] leading-[44px] font-normal;
+    @apply text-[32px] leading-[44px] font-normal font-proxima-nova;
   }
 
   .text-3xl-semi {
-    @apply text-[32px] leading-[44px] font-semibold;
+    @apply text-[32px] leading-[48px] font-semibold font-proxima-nova;
   }
 }
